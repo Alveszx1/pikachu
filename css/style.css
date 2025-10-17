@@ -1,6 +1,9 @@
 :root{
     --primary-color: #F5CF06;
     --secundary-color: #8E4106;
+
+    /* Variável responsável por armazenar um valor que pode ser utilizado em todo o código */
+
 }
 
 .righteous-regular {
@@ -46,6 +49,11 @@ main{
     display: flex;
     flex-direction: column;
     z-index: -2;
+
+        /* Flex-grow é utilizado para ele preencher o espaço total disponivel de forma flexivel  */
+        /* z-index serve para classificar as camadas do objeto*/
+
+
 }
 .sombra{
     position: absolute;
@@ -55,6 +63,11 @@ main{
     left: 50%;
     transform: translate(-50%, -90%);
     z-index: 1;
+
+            /* Position absolute remove o fluxo normal do documento*/
+            /* Transform: translate; serve para ajustar posição dos itens*/
+
+
 }
 .container{
     height: 154px;
@@ -93,6 +106,8 @@ main{
 @media (max-width: 1024px){
     footer{
         display: none;
+        /*Display none é utilizado para ocultar item da tela */
+       
     }
 
     body{
