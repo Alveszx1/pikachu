@@ -50,7 +50,7 @@ main{
 .sombra{
     position: absolute;
     font-size: 25vw;
-    color: #ffffff2b;
+    color: #ffffff55;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -90%);
@@ -118,6 +118,12 @@ main{
         text-align: center;
     }
 
+    .pikachu{
+        height: 50vh;
+        transform: translate(-45%, -50%);
+
+    }
+
     }
 
 
@@ -143,6 +149,8 @@ main{
 
     .pikachu{
         height: 50vh;
+        transform: translate(-45%, -50%);
+
     }
 
     footer{
